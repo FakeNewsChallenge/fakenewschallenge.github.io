@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    font: 16px;
+    width: 100%;
+    height: 100%;
+}
+header {
+  background: rgba(158,169,173,1);
+  width: 100%;
+  border-bottom: 1px dashed #000000;
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.custom_header {
+  margin: 0px auto 0 auto;
+  width:  60%;
+}
+
+.custom_header .container {
+
+  padding: 0 0 20px 0;
+  text-align: center;
+  font-family: Serif;
+}
+
+#logomain {
+  float: left;
+}
+
+.subheader {
+  width:100%;
+  margin: 0 auto;
+}
+
+
+#btn-container {
+    max-width:800px;
+    margin:  -10px auto 0 auto;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+.btn {
+    padding: 3px 15px 3px 15px;
+    margin: 0 auto;
+    background: #FFF;
+    border: 1px solid rgba(158,169,173,1);
+}
+
+a:active, a:link, a:visited {
+   color: rgba(158,169,173,1);
+   text-decoration: underline;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a.btn:active,
+a.btn:link,
+a.btn:visited {
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+    padding: 0px 0 0 0;
+}
+.container h1 {
+    font: 12px;
+    margin: 0;
+}
+
+.container h2 {
+    font: 12px;
+    color: #EEE;
+
+}
+
+.infobox {
+  border-left: 1px solid rgba(158,169,173,1);
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+h1.infobox {
+  border-bottom: 4px solid rgba(158,169,173,1);
+  padding: 1px 10px 0px 10px;
+  margin: 1px 10px 30px 10px;
+  display: table;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+
+.pane {
+  border: 1px solid #000;
+  border-left: 3px solid rgba(158,169,173,1);
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.turtle.pane {
+  width: 100%;
+}
+
+.tab {
+  margin-left: 30px;
+}
+
+
+ul.pane {
+    list-style-type: none;
+}
+
+ul.pane li {
+  border-left: 2px solid rgba(158,169,173,1);
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+section {
+  border-bottom: 4px dashed rgba(158,169,173,1);
+  margin: 10px auto;
+  padding: 10px 0 30px 0;
+  max-width: 700px;
+
+}
+
+#main_body {
+    width: 90%;
+    margin: 0 auto;
+}
