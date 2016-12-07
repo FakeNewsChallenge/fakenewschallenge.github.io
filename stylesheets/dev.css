@@ -59,7 +59,7 @@ a:active, a:link, a:visited {
 }
 
 a:hover {
-    font-weight: bold;
+    background: rgba(158,169,173,1);
 }
 
 a.btn:active,
