@@ -1,6 +1,0 @@
-Here is VERY high level todo list for putting together a dataset for the Fake News Challenge:
-
-1) Narrow down the kind of input / output we're looking for (more in a minute on this)
-2) Identify potential sources for the data (Snopes, Other debunkers, MechTurk...)
-3) Narrow down which of #2 can supply #1 most effectively
-4) Contact the short list from #3 to see who'll work w/ us
