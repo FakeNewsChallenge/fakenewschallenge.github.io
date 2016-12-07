@@ -14,11 +14,9 @@
   </head>
 
   <body>
-        <div class='custom_header'>
-        <header>
-          <h1>Post-facto Fake News Challenge</h1>
-          <h2></h2>
-        </header>
+        <div style='text-align: center; width: 100%; margin: 0 auto;'>
+        <h1>Post-facto Fake News Challenge</h1>
+          
           </div>
 
         <!--<section id="downloads" class="clearfix">
@@ -38,54 +36,68 @@
               for headlines like "Hillary has a body double" we can be confident about truth assertion. 
               We will select headlines for the competition where we can be confident in asserting its veracity.
                 </div>
-          
-          <h1>Data</h1>
-          <ul class='infobox pane'>
-            <li> <h2>Input</h2>
-              <p class='tab'>a claim/headline string with accompanied URL, if any.
+          <hr>
+          <h1>Task</h1>
+          <div class='infobox pane'>
+          <h2>Input</h2>
+           <p class='tab'>a claim/headline string with accompanied URL, if any.
                 <ul class='blank'>
                <li>"Pope endorsed Trump"</li>
                 <li>"Climate change is a Martian takeover operation"</li> 
                 </ul>
-              </p>
-          </li>
-            
-          <li>Output
-              <p class='tab'>Need all four for each input
-              <li>Boolean fakeness indicator</li>
-              <li>Confidence score</li>
-              <li>Provenance URL to support</li>
-              <li>a confidence threshold for accepting/rejecting</li>
-                </p>
-          </li>
-          </ul>
-      <hr>
-    <p>We will provide Training data. Teams will use part of the training data as development set. Test data is withheld.
-    
-      <br><hr>
-    
-      Auxiliary data: In addition to training data, you are free to use all of the internet. 
-      The solution has to work in real-time. 
-    
-      <br><hr>
-
-      Evaluation Criteria: Submissions will be evaluated based on a 0-1 loss using the submission-provided threshold. 
-      All winning entries must provide a provenance URL for their solutions.
-
-      <br><hr>
-
-    
-      Awards: There is a total of $2000 to be awarded for the top-5 teams. 
-      Each team will get cash awards proportional to their accuracy. Submissions achieving more than 10% false positive or false negative rates are not considered. Contesting teams must be willing to open source their systems. 
+            </p>
+       
   
-      <br><hr>
+            
+          <h2>Output</h2>
+              <p class='tab'>Need all four for each input
+                <ul class='blank'>
+                  <li>Boolean fakeness indicator</li>
+                  <li>Confidence score</li>
+                  <li>Provenance URL to support</li>
+                  <li>a confidence threshold for accepting/rejecting</li></ul>
+                </p>
+          </div>
+    
+            <hr>
+
+          <h1>Data</h1>
+          <div class='infobox pane'>
+            <h3>Training Data</h3>: We wil provide the training data<br>
+            <h3>Development Data</h3>: Teams will use part of the training data as a development set<br>
+            <h3>Test Data</h3>: Test data is withheld
+            <h3>Auxiliary Data</h3>:   In addition to training data, you are free to use all of the internet. 
+              The solution has to work in real-time. 
+             </div>
+    
+            <hr>
+        <h1>Evaluation Criteria</h1>
+         <div class='infobox pane'>
+          Submissions will be evaluated based on a 0-1 loss using the submission-provided threshold. 
+             All winning entries must provide a provenance URL for their solutions.
+          </div>
       
+    
+            <hr>
+
+    
+    <h1>Awards</h1>
+         <div class='infobox pane'>
+        There is a total of $2000 to be awarded for the top-5 teams. <br>
+             Each team will get cash awards proportional to their accuracy. <br>
+           Submissions achieving more than 10% false positive or false negative rates are not considered. <br>
+           Contesting teams must be willing to open source their systems. 
+    </div>
+      
+          <hr>
+    <h1> Timeline</h1>
+         <div class='infobox pane'>
       Timeline: <br>
       Teams register by: Jan 1st, 2017<br>
       1st batch of training data released: Jan 15th, 2017<br>
       2nd batch of training data released: Feb 15th, 2017<br>
       Submissions due: June 1st, 2017<br>
-        </p>
+    </div>
         </section>
 
         <footer>
