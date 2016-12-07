@@ -54,7 +54,7 @@ header {
 }
 
 a:active, a:link, a:visited {
-   color: rgba(158,169,173,1);
+   color: rgba(90, 146, 237,1);
    text-decoration: underline;
 }
 
