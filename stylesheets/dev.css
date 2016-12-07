@@ -132,6 +132,15 @@ ul.pane li {
   padding: 0px 5px;
 }
 
+ul.blank {
+    list-style-type: none;
+}
+
+ul.blank li {
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
 section {
   border-bottom: 4px dashed rgba(158,169,173,1);
   margin: 10px auto;
