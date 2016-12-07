@@ -29,32 +29,38 @@
 
         <hr>
 
-        <section id="main_content">
-        
-        <p>
+        <section>
+          <h1>Overview</h1>
+        <ul class='infobox pane'>
+        <li>Description
+          <p class='tab'>
         Post-facto fake news refers to news items or claims that are already known to be false, 
         either by work from organizations like Snopes and Factcheck or by the general public on social media. 
         For this challenge, we will only consider claims that are outright false or outright true. 
         For example, "eating fruit prevents cancer" -- a truth assertion here is dodgy at best, but 
         for headlines like "Hillary has a body double" we can be confident about truth assertion. 
         We will select headlines for the competition where we can be confident in asserting its veracity.
-          </p>
-        
+          </p></li>
+          </ul>
           
-        <p>
-            <b>Input</b>: a claim/headline string with accompanied URL, if any.
-          
-            <li>"Pope endorsed Trump"</li>
-            <li>"Climate change is a Martian takeover operation"</li>
-          
-          <br>
-        <b>Output</b>: Need all four for each input
-          <li>Boolean fakeness indicator</li>
-          <li>Confidence score</li>
-          <li>Provenance URL to support</li>
-          <li>a confidence threshold for accepting/rejecting</li>
-        
-        </p>
+          <h1>Data</h1>
+          <ul class='infobox pane'>
+          <li> Input
+              <p class='tab'>a claim/headline string with accompanied URL, if any.
+               <li>"Pope endorsed Trump"</li>
+                <li>"Climate change is a Martian takeover operation"</li> 
+              </p>
+          </li>
+            
+          <li>Output
+              <p class='tab'>Need all four for each input
+              <li>Boolean fakeness indicator</li>
+              <li>Confidence score</li>
+              <li>Provenance URL to support</li>
+              <li>a confidence threshold for accepting/rejecting</li>
+                </p>
+          </li>
+          </ul>
       <hr>
     <p>We will provide Training data. Teams will use part of the training data as development set. Test data is withheld.
     
