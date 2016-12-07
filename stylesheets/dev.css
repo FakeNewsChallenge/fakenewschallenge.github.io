@@ -59,7 +59,8 @@ a:active, a:link, a:visited {
 }
 
 a:hover {
-    background: rgba(158,169,173,1);
+    background: rgba(204, 205, 206,1);
+    color: rgba(134, 165, 216, 1);
 }
 
 a.btn:active,
