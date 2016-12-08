@@ -56,7 +56,6 @@ header {
 a:active, a:link, a:visited {
    color: rgba(90, 146, 237,1);
    text-decoration: underline;
-   font-size: 100%;
 }
 
 a:hover {
@@ -153,3 +152,9 @@ section {
     width: 90%;
     margin: 0 auto;
 }
+
+@media (max-width: 500px) {
+   font-size: 150%;
+}
+    
+ 
