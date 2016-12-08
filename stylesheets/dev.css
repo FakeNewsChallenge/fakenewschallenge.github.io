@@ -46,12 +46,6 @@ header {
 
 
 
-.btn {
-    padding: 3px 15px 3px 15px;
-    margin: 0 auto;
-    background: #FFF;
-    border: 1px solid rgba(158,169,173,1);
-}
 
 a:active, a:link, a:visited {
    color: rgba(90, 146, 237,1);
