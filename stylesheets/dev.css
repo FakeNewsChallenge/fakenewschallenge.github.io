@@ -50,13 +50,13 @@ header {
     padding: 3px 15px 3px 15px;
     margin: 0 auto;
     background: #FFF;
-    font: 13px;
     border: 1px solid rgba(158,169,173,1);
 }
 
 a:active, a:link, a:visited {
    color: rgba(90, 146, 237,1);
    text-decoration: underline;
+   font-size: 100%;
 }
 
 a:hover {
@@ -78,7 +78,6 @@ a.btn:visited {
     padding: 0px 0 0 0;
 }
 .container h1 {
-    font: 12px;
     margin: 0;
 }
 
@@ -104,7 +103,6 @@ h1.infobox {
 }
 
 h2 {
-  font-size: 18px;
   margin: 0 0 0 10px;
 }
 
