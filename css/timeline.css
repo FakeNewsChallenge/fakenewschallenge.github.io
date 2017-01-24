@@ -126,6 +126,12 @@
     content:" ";
 }
 
+
+.timeline > li .timeline-panel.no-downarrow:before {
+    display: none;
+}
+
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
