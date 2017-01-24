@@ -1,5 +1,6 @@
 .larger-text {
-  font-size: 10px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   margin: 0 0 0px;
 }
 
@@ -7,9 +8,23 @@
     
 }
 
-
 .pane {
     background-color: rgba(80,80,80,0.1);
+}
+
+.center {
+    text-align: center;
+}
+
+.whitepane {
+    background-color: rgba(255,255,255,1.0);
+}
+
+.textsc {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 85%;
 }
 
 .example-pane {
