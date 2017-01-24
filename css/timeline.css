@@ -127,7 +127,8 @@
 }
 
 
-.timeline > li .timeline-panel.no-downarrow:before {
+.timeline > li .timeline-panel.no-downarrow:before,
+.timeline > li .timeline-panel.no-downarrow:after {
     display: none;
 }
 
@@ -165,7 +166,8 @@
     border-right: 1px solid black;
   }
 
-  .timeline > li.timeline-inverted > .timeline-panel:after {
+  .timeline > li.timeline-inverted > .timeline-panel:after,
+  .timeline > li.timeline-inverted > .timeline-panel.no-downarrow:after {
         position: absolute;
         top: auto;
         left: -20px;
@@ -179,7 +181,8 @@
         content:" ";
     }
 
-  .timeline > li .timeline-panel:before {
+  .timeline > li .timeline-panel:before,
+  .timeline > li .timeline-panel.no-downarrow:before {
     position: absolute;
     bottom: 0px;
     right: -20px;
