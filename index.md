@@ -20,6 +20,12 @@ be leveraged to combat fake news.</div>
         <div class='col-sm-4'>
             <a  href="https://fakenewschallenge-inviter.herokuapp.com/" class="page-scroll btn btn-xl">Join the Slack</a>
         </div>
+    </div><br/><br/>
+    <div class='row'>
+        <div class='col-sm-4'></div>
+        <div class='col-sm-4'>
+            <a  href="#stageone" class="page-scroll btn btn-xl"><i class="fa fa-hand-o-down" aria-hidden="true"></i></a>
+        </div>
     </div>
 </div>
 </div>
