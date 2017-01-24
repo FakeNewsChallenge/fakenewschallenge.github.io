@@ -39,9 +39,9 @@
 >to a headline. Specifically, the body text may agree, disagree, discuss or be unrelated to the headline.
 {:  .larger-text .text-left .col-md-8}
 
-[^1]: https://www.nytimes.com/2016/12/06/us/fake-news-partisan-republican-democrat.html
-[^2]: http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/
-[^3]: https://medium.com/factmata/introducing-factmata-artificial-intelligence-for-political-fact-checking-db8acdbf4cf1
+[^1]: [New York Times. "As Fake News Spreads Lies, More Readers Shrug at the Truth"](https://www.nytimes.com/2016/12/06/us/fake-news-partisan-republican-democrat.html)
+[^2]: [Pew Research Center. "Many Americans Believe Fake News Is Sowing Confusion"](http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/)
+[^3]: [Dhruv Ghulati, Co-Founder, Factmata. "Introducing Factmata—Artificial intelligence for automated fact-checking"](https://medium.com/factmata/introducing-factmata-artificial-intelligence-for-political-fact-checking-db8acdbf4cf1)
 
 ### Formal Definition
 {: .row .col-lg-12 .text-center .section-heading}

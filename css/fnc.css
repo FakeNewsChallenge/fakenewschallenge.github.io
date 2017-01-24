@@ -4,8 +4,16 @@
   margin: 0 0 0px;
 }
 
-.noblock {
-    
+.team-title {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 85%;
+}
+
+
+.noleftborder {
+    border-left: 0px;
 }
 
 .pane {
