@@ -1,0 +1,27 @@
+- title: Registration Opens
+  inverted: false
+  date: December 1st, 2016
+  
+- title: Training Dataset Released
+  inverted: true
+  date: February 1st, 2017
+  
+- title: Baseline Performance Announced
+  inverted: false
+  date: March 1st, 2017
+  
+- title: Registration Closes
+  inverted: true
+  date: May 1st, 2017
+
+- title: Testing Dataset Released
+  inverted: false
+  date: June 1st, 2017 (12:01 AM GMT)
+
+- title: Test Result Submissions Due
+  inverted: true
+  date: June 2nd, 2017 (11:59 PM GMT)
+
+- title: Results and Winners Announced
+  inverted: false
+  date: June 15th, 2017
