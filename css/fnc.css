@@ -16,6 +16,18 @@
     border-left: 0px;
 }
 
+.button-spacer {
+ padding: 20px;
+ margin: 20px;
+}
+
+
+@media (min-width: 1000px) {
+    .button-spacer {
+        padding: 0px;
+        margin: 0px;
+    }
+}
 .pane {
     background-color: rgba(80,80,80,0.1);
 }
@@ -28,6 +40,20 @@
     background-color: rgba(255,255,255,1.0);
 }
 
+.wordcloud {
+  min-height: 360px;
+  min-width: 360px;
+  background-image: url('../assets/img/wordcloud_lg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  -webkit-background-size: 360px 360px;
+  -moz-background-size: 360px 360px;
+  background-size: 360px 360px;
+  -o-background-size: 360px 360px;
+  text-align: center;
+}
+
 .textsc {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -36,11 +62,16 @@
 }
 
 .example-pane {
-    border-left: 10px solid rgba(161,230,151,0.9);
+    border-left: 10px solid rgba(119,186,32,0.8);
 }
 
 .example-pane > blockquote {
-    background-color: rgba(161,230,151,0.8);
+    background-color: rgba(119,186,32,0.7);
+}
+
+.timeline-bar {
+    border: 10px solid black;
+    width: 100%;
 }
 
 .example-pane > hr {

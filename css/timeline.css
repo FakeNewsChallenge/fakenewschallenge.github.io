@@ -1,0 +1,189 @@
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 5px;
+  background-color: rgba(0,0,0,0.3);
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 10px 0 10px;
+  position: relative;
+  text-align: left;
+  background-color: rgba(119,186,32,0.9); 
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.timeline > li .timeline-panel.timeline-finished {
+  background-color: gray; 
+}
+
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #77BA20;
+  color: white;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline > li .timeline-panel:before {
+    position: absolute;
+    bottom: -15px;
+    left: 25px;
+    display: inline-block;
+    border-top: 15px solid #000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid #000;
+    content:" ";
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    display: none;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    position: absolute;
+    bottom: -15px;
+    left: 25px;
+    display: inline-block;
+    border-top: 15px solid #000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid #000;
+    content:" ";
+}
+
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    margin-bottom: 10px;
+    min-height: 20px;
+  }
+  .timeline > li .timeline-panel {
+    width: 30%;
+    float: left;
+    padding: 0 10px 20px 20px;
+    text-align: right;
+    margin-left: 15%;
+    border: 0;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+  }
+
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    margin-right: 15%;
+    text-align: left;
+    padding: 0 10px 20px 20px;
+    border: 0;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+        position: absolute;
+        top: auto;
+        left: -20px;
+        right: auto;
+        bottom: 0px;
+        display: inline-block;
+        border-top: 25px solid transparent;
+        border-left: 0px solid #000;
+        border-right: 20px solid #000;
+        border-bottom: 25px solid transparent;
+        content:" ";
+    }
+
+  .timeline > li .timeline-panel:before {
+    position: absolute;
+    bottom: 0px;
+    right: -20px;
+    left: auto;
+    top: auto;
+    display: inline-block;
+    border-top: 25px solid transparent;
+    border-left: 20px solid #000;
+    border-right: 0 solid #000;
+    border-bottom: 25px solid transparent;
+    content:" ";
+  }
+}
