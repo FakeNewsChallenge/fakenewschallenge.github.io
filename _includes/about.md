@@ -4,8 +4,6 @@
 
 <span class='row' markdown="1">
 
-<hr class="page_divider col-md-12 row">
-
 <span class='row' markdown="1">
 
 
