@@ -96,8 +96,6 @@
 >
 > - <a href="http://{{ member.homepage }}"><i class="fa fa-home"></i>
 > - <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i>
-> - <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i>
-> - <a href="#"><i class="fa fa-linkedin"></i>
 > {: .list-inline .social-buttons}
 {: .team-member .col-sm-4 .noleftborder}
 

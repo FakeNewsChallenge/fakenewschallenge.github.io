@@ -1,24 +1,18 @@
 - name: Dean Pomerleau
-  title: Organizer, FNC
+  title: Organizer, FakeNewsChallenge
   affiliation: Adjunct Faculty, CMU
   photo: dean.jpg
   twitter: deanpomerleau
-  linkedin:
-  github:
   
 - name: Delip Rao
-  title: Organizer, FNC
+  title: Organizer, FakeNewsChallenge
   affiliation: Founder, Joostware
   photo: delip.jpg
   twitter: deliprao
-  linkedin:
-  github:
 
 - name: Brian McMahan
-  affiliation: Webmaster
-  title: CS PhD Candidate, Rutgers
+  affiliation: CS PhD Candidate, Rutgers
+  title: Website wrangler
   photo: brian.jpg
   twitter: bcmcmahan
-  linkedin: 
-  github: braingineer
   homepage: mcmahan.io
