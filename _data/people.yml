@@ -1,25 +1,24 @@
 - name: Dean Pomerleau
-  title: 
-  affiliation: 
+  title: Organizer, FNC
+  affiliation: Adjunct Faculty, CMU
   photo: dean.jpg
   twitter: deanpomerleau
   linkedin:
   github:
   
 - name: Delip Rao
-  title: 
-  affiliation: 
+  title: Organizer, FNC
+  affiliation: Founder, Joostware
   photo: delip.jpg
   twitter: deliprao
   linkedin:
   github:
 
 - name: Brian McMahan
-  affiliation: Website Consultant
-  title: Comp. Sci. PhD Candidate
+  affiliation: Webmaster
+  title: CS PhD Candidate, Rutgers
   photo: brian.jpg
   twitter: bcmcmahan
   linkedin: 
   github: braingineer
   homepage: mcmahan.io
-

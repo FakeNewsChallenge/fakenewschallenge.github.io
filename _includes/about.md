@@ -12,7 +12,7 @@
 <span class='row' markdown="1">
 <div class='col-md-1'></div>
 
-#### A group of researchers, academics, engineers and hackers who have come together with the hope that AI technology will assist human fact-checkers.
+#### <FNC Blurb>
 {: .col-md-10 .whitepane .pane .row}
 
 <span class='row' markdown="1">
@@ -25,10 +25,44 @@
 <br/>
 <br/>
 
-## People
+## Advisors
 {: .col-md-12 .whitepane .pane}
+<br/>
+
+{% assign memberIndex = 0 %}
+
+{% for member in site.data.advisors %}
+
+{% if member.photo == "" or member.photo == nil %}
+{% assign photo = "nopic.gif" %}
+{% else %}
+{% assign photo = member.photo %}
+{% endif %}
+
+{% if member.affiliation == "" or member.affiliation == nil %}
+:{% assign affiliation = "TBD" %}
+{% else %}
+{% assign affiliation = member.affiliation %}
+{% endif %}
+
+> ![{{ member.name photo }}]({{ site.baseurl}}/assets/img/{{ photo }}){: height="192px" width="192px"}
+>
+> #### {{ member.name }}
+> *{{ affiliation }}*{:.team-title} <br/>
+>
+> - <a href="http://{{ member.homepage }}"><i class="fa fa-home"></i>
+> - <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i>
+> {: .list-inline .social-buttons}
+{: .team-member .col-sm-4 .noleftborder}
+
+{% assign memberIndex = memberIndex | plus: 1 %}
 
 
+{% endfor %}    
+
+
+## Volunteers
+{: .col-md-12 .whitepane .pane}
 <br/>
 
 {% assign memberIndex = 0 %}
@@ -70,5 +104,4 @@
 {% assign memberIndex = memberIndex | plus: 1 %}
 
 
-{% endfor %}    
-
+{% endfor %}
