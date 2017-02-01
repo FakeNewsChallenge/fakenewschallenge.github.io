@@ -1,0 +1,41 @@
+- name: Mevan Babakar
+  title: Digital Products Manager
+  affiliation: Full Fact
+  photo: mevan.jpg
+  twitter: mevan
+
+- name: Nada Bakos
+  title: Senior Fellow
+  affiliation: FPRI
+  photo: nada.jpg
+  twitter: nadabakos
+
+- name: Hal Daumé III
+  title: ML Researcher/Professor
+  affiliation: UMD
+  photo: hal.jpg
+  twitter: haldaume3
+
+- name: Alexios Mantzarlis
+  title: Director
+  affiliation: IFCN
+  photo: alexios.jpg
+  twitter: Mantzarlis
+
+- name: Djamé Seddah
+  title: NLP Researcher/Professor
+  affiliation: INRIA, Paris
+  photo: djame.jpg
+  twitter: zehovac
+    
+- name: Andreas Vlachos
+  title: NLP Researcher/Lecturer
+  affiliation: U. of Sheffield
+  photo: andreas.jpg
+  twitter:
+
+- name: Claire Wardle
+  title: Research Director
+  affiliation: First Draft News
+  photo: claire.jpg
+  twitter:

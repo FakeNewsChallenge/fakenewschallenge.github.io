@@ -1,0 +1,123 @@
+.larger-text {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 0 0px;
+}
+
+.team-title {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 85%;
+}
+
+
+.noleftborder {
+    border-left: 0px;
+}
+
+.button-spacer {
+ padding: 20px;
+ margin: 20px;
+}
+
+
+@media (min-width: 1000px) {
+    .button-spacer {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.pane {
+    background-color: rgba(80,80,80,0.1);
+}
+
+.center {
+    text-align: center;
+}
+
+.whitepane {
+    background-color: rgba(255,255,255,1.0);
+}
+
+.wordcloud {
+  min-height: 360px;
+  min-width: 360px;
+  background-image: url('../assets/img/wordcloud_lg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  -webkit-background-size: 360px 360px;
+  -moz-background-size: 360px 360px;
+  background-size: 360px 360px;
+  -o-background-size: 360px 360px;
+  text-align: center;
+}
+
+.textsc {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 85%;
+}
+
+.list-on {
+        list-style-type: disc;
+}
+
+.example-pane {
+    border-left: 10px solid rgba(119,186,32,0.8);
+}
+
+.example-pane > blockquote {
+    background-color: rgba(119,186,32,0.7);
+}
+
+.timeline-bar {
+    border: 10px solid black;
+    width: 100%;
+}
+
+.example-pane > hr {
+    border-top: 1px solid #8c8b8b;
+}
+
+hr.page_divider {
+    border-top: 1px solid #8c8b8b;
+}
+
+.extra {
+    font-weight: 700;
+}
+
+.tab {
+  margin-left: 10px;
+}
+ul.pane {
+    list-style-type: none;
+}
+
+
+ul.pane > li {
+  border-left: 2px solid rgba(158,169,173,1);
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.blank {
+    list-style-type: none;
+}
+
+ul.blank li {
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+blockquote {
+    border-left: 3px solid rgba(158,169,173,0.4);
+    padding-left: 20px;
+}

@@ -1,0 +1,20 @@
+- question: Why did you choose the stance detection task rather than the task of labeling a claim, headline or story True/False, which seems to be what the fake news problem is all about?
+  filename: q1.md
+- question: OK, but what does stance detection have to do with detecting fake news? 
+  filename: q2.md
+- question: Is there any prior work on the stance detection task that would be useful background?
+  filename: q3.md
+- question: Can you elaborate on the restriction against using auxiliary training data?
+  filename: q4.md
+- question: Do you plan to have an auto-scoring submission system, so teams can assess their performance before the deadline?
+  filename: q5.md
+- question: Why is the window between release of the testing dataset and the end of the competition so short (48H)? What if my team can't complete the challenge in that time window?
+  filename: q6.md
+- question: Will the distribution of output labels (agree, disagree, discuss, unrelated) be the same in the test set as the training set?
+  filename: q7.md
+- question: How did the Fake News Challenge Originate?
+  filename: q8.md
+- question: Do you think that automated fact checking is really possible? If yes, in the next 10 years?
+  filename: q9.md
+- question: How can we hope to solve the problem of fake news when people can’t even agree on the definition of “fake news”?
+  filename: q10.md
