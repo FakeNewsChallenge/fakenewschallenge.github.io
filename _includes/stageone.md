@@ -22,9 +22,9 @@
 <div class='col-md-2'></div>
 > Assessing the veracity of a news story is a complex and cumbersome task, even for trained experts [^3]. Fortunately, 
 > the process can be broken down into steps or stages. A helpful first step towards identifying fake news is to 
-> understanding what other news organizations are saying about the topic. We believe automating this process, called 
+> understand what other news organizations are saying about the topic. We believe automating this process, called 
 > **Stance Detection**, could serve as a useful building block in an AI-assisted fact-checking pipeline. So stage #1 of 
-> the **Fake News Challenge (FNC-1)** focuses on the task of stance detection.
+> the **Fake News Challenge (FNC-1)** focuses on the task of Stance Detection.
 
 
 
@@ -103,10 +103,10 @@
 <div class='col-md-2'></div>
 
 - #### **Training Set** 
-    + ###### [headline : body text] 
+    + ###### [headline, body text, label] 
     + Pairs of headline and body text with the appropriate class label for each.
 - #### Testing Set
-    + ###### [headline : body text] 
+    + ###### [headline, body text] 
     + Pairs of headline and body text without class labels used to evaluate systems.
 - #### Details 
     + **Data**: The dataset and a brief description of the data is provided at the [FNC-1 github](https://github.com/FakeNewsChallenge/fnc-1).  <br/>
@@ -141,7 +141,7 @@
     + **Level 2**: Classify related pairs as *agrees*, *disagrees*, or *discusses*    75% score weighting
 - **Rationale:** The related/unrelated classification task is expected to be much easier and is 
     less relevant for detecting fake news, so it is given less weight in the evaluation metric.
-    The stance detection task (classify as agrees, disagrees or discuss) is both more difficult 
+    The Stance Detection task (classify as agrees, disagrees or discuss) is both more difficult 
     and more relevant to fake news detection, so is to be given much more weight in the 
     evaluation metric
 {: .text-left .col-md-8 .pane}
@@ -155,10 +155,10 @@
 
 - {:.center}![eval]({{ site.baseurl}}/assets/img/fnc-eval.png)
 
-- Concretely, if a *[headline : body text]*{:.textsc} pair in the test set has the target label unrelated, 
+- Concretely, if a *[headline, body text]*{:.textsc} pair in the test set has the target label unrelated, 
     a team’s evaluation score will be incremented by 0.25 if it labels the pair as unrelated. 
 
-- Otherwise, if the *[headline : body text]*{:.textsc} test pair is related, a team’s score 
+- Otherwise, if the *[headline, body text]*{:.textsc} test pair is related, a team’s score 
     will be incremented by 0.25 if it labels the pair as any of the three classes: 
     *agrees*, *disagrees*, or *discusses*.
 
