@@ -121,9 +121,12 @@
 <span class='row' markdown="1">
 <div class='col-md-2'></div>
 
-> 1. For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also [FAQ]({{ site.baseurl}}/#faq) section.
-> 2. All winning teams must be willing to open source their solutions/systems.
-> 3. That's about it.
+- ##### Rule #1 
+    + For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also [FAQ]({{ site.baseurl}}/#faq) section.
+- ##### Rule #2
+    + All winning teams must be willing to open source their solutions/systems.
+- ##### Rule #3 
+    + Have fun!
 {: .text-left .col-md-8 .pane}
 
 ### Evaluation
