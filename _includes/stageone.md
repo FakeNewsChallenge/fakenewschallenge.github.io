@@ -112,8 +112,6 @@
     + **Data**: The dataset and a brief description of the data is provided at the [FNC-1 github](https://github.com/FakeNewsChallenge/fnc-1).  <br/>
     
     + **Source**: The data is derived from the Emergent Dataset created by Craig Silverman. 
-    
-    + **Restrictions**: For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also FAQ section.
 {: .text-left .col-md-8 .pane}
 
 
@@ -123,7 +121,7 @@
 <span class='row' markdown="1">
 <div class='col-md-2'></div>
 
-> 1. For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also FAQ section.
+> 1. For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also [FAQ]({{ site.baseurl}}/#faq) section.
 > 2. All winning teams must be willing to open source their solutions/systems.
 > 3. That's about it.
 {: .text-left .col-md-8 .pane}
@@ -155,10 +153,10 @@
 
 - {:.center}![eval]({{ site.baseurl}}/assets/img/fnc-eval.png)
 
-- Concretely, if a *[headline, body text]*{:.textsc} pair in the test set has the target label unrelated, 
+- Concretely, if a *[headline, body text]*{:.textsc} pair in the test set has the target label *unrelated*, 
     a team’s evaluation score will be incremented by 0.25 if it labels the pair as unrelated. 
 
-- Otherwise, if the *[headline, body text]*{:.textsc} test pair is related, a team’s score 
+- If the *[headline, body text]*{:.textsc} test pair is related, a team’s score 
     will be incremented by 0.25 if it labels the pair as any of the three classes: 
     *agrees*, *disagrees*, or *discusses*.
 
