@@ -177,7 +177,7 @@
 
 - A simple baseline using hand-coded features and a GradientBoosting classifier is available on <a href="https://github.com/FakeNewsChallenge/fnc-1-baseline" target="_blank">Github</a>.
 
-- The baseline implementation also includes code for pre-processing text, splitting data carefully to avoid bleeding of articles between training and test, k-fold cross validation, scorer, and most of the crud you will need to write to experiment with this data. The hand-crafted features word/ngram overlap features, and indicator features for polarity and refutation. 
+- The baseline implementation also includes code for pre-processing text, splitting data carefully to avoid bleeding of articles between training and test, k-fold cross validation, scorer, and most of the crud you will need to write to experiment with this data. The hand-crafted features include word/ngram overlap features, and indicator features for polarity and refutation. 
 
 - With these features and a gradient boosting classifier, the baseline achieves a weighted accuracy score of **81.19%** (as per the evaluation scheme described above) with a 10-fold cross validation.  The baseline is for simply for your reference. You are welcome to use it any way you like it (or not).
 {: .text-left .col-md-8 .pane}
