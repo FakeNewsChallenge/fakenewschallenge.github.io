@@ -124,7 +124,7 @@
 - ##### Rule #1 
     + For this stage of the challenge, we require all teams to use only the labeled data supplied by FakeNewsChallenge.org  (i.e. no external data augmentation is allowed). See also [FAQ]({{ site.baseurl}}/#faq) section.
 - ##### Rule #2
-    + All winning teams must be willing to open source their solutions/systems.
+    + All winning teams must be willing to open source their solutions/systems with an Apache 2.0 license.
 - ##### Rule #3 
     + Have fun!
 {: .text-left .col-md-8 .pane}
@@ -173,6 +173,7 @@
 
 <span class='row' markdown="1">
 <div class='col-md-2'></div>
+<a name="baseline"/>
 
 - A simple baseline using hand-coded features and a GradientBoosting classifier is available on <a href="https://github.com/FakeNewsChallenge/fnc-1-baseline" target="_blank">Github</a>.
 
