@@ -16,17 +16,17 @@
 - title: Registration Closes
   inverted: true
   date: May 1st, 2017
-  status: active
+  status: finished
 
 - title: Testing Dataset Released
   inverted: false
   date: June 1st, 2017 (12:01 AM GMT)
-  status: active
+  status: finished
 
 - title: Test Result Submissions Due
   inverted: true
   date: June 2nd, 2017 (11:59 PM GMT)
-  status: active
+  status: finished
 
 - title: Results and Winners Announced
   inverted: false
