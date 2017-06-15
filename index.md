@@ -12,7 +12,7 @@ layout: agency
 be leveraged to combat fake news.</div>
     <div class='row'>
         <div class='col-sm-4 button-spacer'>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJAMXy_iOXnfh-m6jbsbRAm0xwFUlQRD5VWLyuExq2rD0GmQ/viewform" class="page-scroll btn btn-xl">Register A Team</a>
+            <a href="#fnc1results" class="page-scroll btn btn-xl">FNC-1 winners and results</a>
         </div>
         <div class='col-sm-4 button-spacer'>
             <a href="https://github.com/FakeNewsChallenge" class="page-scroll btn btn-xl">Our Github repositories</a>
