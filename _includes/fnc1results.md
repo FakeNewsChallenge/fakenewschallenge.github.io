@@ -14,7 +14,7 @@ Fifty of the 80 participants made submissions for FNC-1 by the end of June 2nd u
 |Rank|Team name   |Affliation  | Score  | Relative Score  |
 |:---|:---|:---|---:|---:|
 |1 |[SOLAT in the SWEN](https://github.com/Cisco-Talos/fnc-1)|Talos Intelligence|9556.50|82.02|
-|2 |[Athene](https://github.com/hanselowski/athene_system)|TU Darmstadt|9550.75|81.97|
+|2 |[Athene (UKP Lab)](https://github.com/hanselowski/athene_system)|TU Darmstadt|9550.75|81.97|
 |3 |[UCL Machine Reading](https://github.com/uclmr/fakenewschallenge)|UCL|9521.50|81.72|
 {: .col-md-8 .row .pane .whitepane}
 
