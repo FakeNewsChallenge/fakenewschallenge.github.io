@@ -1,1 +1,1 @@
-[Fake News Challange](http://fakenewschallenge.github.io)
+[Fake News Challenge](http://fakenewschallenge.github.io)
